@@ -1,0 +1,15 @@
+# Java / Maven
+resenas-api/target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs y entornos locales
+*.log
+.env

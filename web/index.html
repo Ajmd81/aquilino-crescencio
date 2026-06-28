@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exposición — Aquilino Crescencio</title>
+<meta name="description" content="Exposición de pintura: recorrido interactivo por las obras, semblanza del artista y reseñas." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="contenedor">
+    <div class="marca"><span class="sello" aria-hidden="true"></span><span data-bind="marca">⟨ Nombre del pintor ⟩</span></div>
+    <nav class="nav-links" id="navLinks" aria-label="Principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#video">Vídeo</a>
+      <a href="#exposicion">Exposición</a>
+      <a href="#artista">El artista</a>
+      <a href="#resenas">Reseñas</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="contenedor">
+    <span class="placa">Exposición de pintura</span>
+    <h1 data-bind="titularHero">Paisajes de una <em>vida rural</em></h1>
+    <div class="regla"></div>
+    <p data-bind="entradilla">Una colección de óleos sobre la luz del campo, los rebaños y la mesa compartida. Recorre la sala obra por obra con la visita guiada y deja tu reseña de cada cuadro.</p>
+    <a href="#exposicion" class="cta">
+      Comenzar el recorrido
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ============ RECORRIDO EN VÍDEO ============ -->
+<section class="seccion" id="video">
+  <div class="contenedor">
+    <div class="expo-cab">
+      <div>
+        <span class="placa">Recorrido en vídeo</span>
+        <h2>La exposición en su casa</h2>
+      </div>
+      <p>Un paseo grabado por la sala, cuadro a cuadro. Después puedes explorarlos en detalle más abajo.</p>
+    </div>
+    <div class="video-wrap" id="videoWrap"><!-- el reproductor se inserta por JS --></div>
+  </div>
+</section>
+
+<!-- ============ EXPOSICIÓN (carrusel) ============ -->
+<section class="seccion" id="exposicion">
+  <div class="contenedor">
+    <div class="expo-cab">
+      <div>
+        <span class="placa">La sala</span>
+        <h2>Recorrido por la exposición</h2>
+      </div>
+      <p>Avanza con las flechas o elige una obra en la tira de miniaturas. Cada cuadro puede reseñarse.</p>
+    </div>
+
+    <div class="expo-grid">
+      <!-- carrusel de obras -->
+      <div class="carrusel" id="carrusel" tabindex="0" aria-label="Carrusel de obras">
+        <button class="cr-flecha cr-prev" id="crPrev" aria-label="Obra anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <figure class="cr-marco">
+          <img id="crImg" src="" alt="" />
+        </figure>
+        <button class="cr-flecha cr-next" id="crNext" aria-label="Obra siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <!-- placa con la información de la obra activa -->
+      <aside class="placa-obra" id="placaObra" aria-live="polite">
+        <div class="meta">
+          <span class="placa" id="obraTecnica">Óleo sobre lienzo</span>
+        </div>
+        <h3 id="obraTitulo">—</h3>
+        <div class="anio" id="obraAnio">—</div>
+        <p class="desc" id="obraDesc">—</p>
+
+        <div class="acciones">
+          <button class="btn btn-solido" id="reseñarObra">Reseñar esta obra</button>
+          <span class="progreso" id="crProgreso"></span>
+        </div>
+      </aside>
+    </div>
+
+    <!-- tira de miniaturas -->
+    <div class="cr-miniaturas" id="crMinis" aria-label="Miniaturas de las obras"></div>
+  </div>
+</section>
+
+<!-- ============ EL ARTISTA ============ -->
+<section class="seccion" id="artista">
+  <div class="contenedor">
+    <div class="artista-grid">
+      <div class="retrato"><img src="assets/autor.jpg" alt="Aquilino Crescencio, el pintor" loading="lazy"></div>
+      <div class="artista">
+        <span class="placa">Semblanza</span>
+        <h2 data-bind="marca2">⟨ Nombre del pintor ⟩</h2>
+        <p class="lead" data-bind="bioLead">Pintor de raíz local, dedicado a la escena rural y al paisaje del entorno.</p>
+        <p data-bind="bio1">Aquilino Crescencio empezó a pintar a los cincuenta años, sin maestros ni academias, guiado solo por su mirada. Más de quince años después, su casa se ha convertido en una exposición donde puede disfrutarse toda su obra.</p>
+        <p data-bind="bio2">Sus cuadros destacan por un trazo y un realismo impresionantes que los hacen inconfundibles: escenas de la vida rural, paisajes y bodegones pintados al óleo con una paleta cálida de tierras.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEÑAS / BLOG ============ -->
+<section class="seccion" id="resenas">
+  <div class="contenedor">
+    <div class="resenas-cab">
+      <span class="placa">El cuaderno de visitas</span>
+      <h2>Reseñas de las obras</h2>
+      <p>Comparte tu impresión sobre cualquiera de los cuadros. Tu reseña aparecerá aquí abajo.</p>
+    </div>
+
+    <div class="resenas-grid">
+      <!-- formulario -->
+      <div class="form-card">
+        <div class="campo">
+          <label for="rNombre">Tu nombre</label>
+          <input id="rNombre" type="text" maxlength="60" placeholder="Cómo quieres firmar" />
+        </div>
+        <div class="campo">
+          <label for="rObra">Obra</label>
+          <select id="rObra"></select>
+        </div>
+        <div class="campo">
+          <label id="lblEstrellas">Puntuación</label>
+          <div class="estrellas" id="estrellas" role="radiogroup" aria-labelledby="lblEstrellas"></div>
+        </div>
+        <div class="campo">
+          <label for="rTexto">Tu reseña</label>
+          <textarea id="rTexto" maxlength="600" placeholder="¿Qué te transmite el cuadro?"></textarea>
+        </div>
+        <button class="btn btn-solido" id="publicar" style="width:100%">Publicar reseña</button>
+        <div class="error" id="formError" role="alert"></div>
+        <div class="aviso-store" id="avisoStore" hidden>Sin conexión con el servidor de reseñas: por ahora se guardan solo en este navegador.</div>
+      </div>
+
+      <!-- listado -->
+      <div class="lista-resenas" id="listaResenas"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="contenedor">
+    <span data-bind="marca3">⟨ Nombre del pintor ⟩</span>
+    <span>Exposición de pintura · <span id="anioActual"></span></span>
+  </div>
+</footer>
+
+</body>
+</html>
