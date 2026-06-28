@@ -153,7 +153,7 @@ function mover(paso){ seleccionar(obraActivaIdx + paso); }
    ================================================================ */
 /* En LOCAL apunta a tu backend. Para PRODUCCIÓN (Vercel) cámbialo por la URL
    pública de Railway, p.ej. "https://resenas-api-production.up.railway.app". */
-const API = { base: "http://localhost:8080" };
+const API = { base: "https://aquilino-crescencio-production.up.railway.app" };
 
 const STORE_KEY = 'resenas_pintor_v1';
 let resenas = [];
