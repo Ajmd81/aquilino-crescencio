@@ -143,8 +143,7 @@ h1,h2,h3{font-family:var(--display); font-weight:700; line-height:1.12; margin:0
 }
 .placa-obra .meta{display:flex; gap:8px; align-items:center; margin-bottom:14px; flex-wrap:wrap}
 .placa-obra .meta .sep{color:var(--linea)}
-.placa-obra h3{font-size:1.7rem; margin-bottom:6px}
-.placa-obra .anio{font-size:.85rem; color:var(--siena); margin-bottom:16px}
+.placa-obra h3{font-size:1.7rem; margin-bottom:16px}
 .placa-obra .desc{color:var(--tinta); font-size:1rem; min-height:96px}
 .placa-obra .acciones{display:flex; gap:12px; align-items:center; margin-top:22px; flex-wrap:wrap}
 .placa-obra .progreso{font-variant-numeric:tabular-nums; color:var(--siena); font-size:.9rem; margin-left:auto}

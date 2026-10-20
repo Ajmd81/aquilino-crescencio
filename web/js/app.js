@@ -3,7 +3,7 @@
    ----------------------------------------------------------------
    Todo lo que el cliente debe cambiar está aquí: nombre del autor,
    biografía, el vídeo y las obras del carrusel (título, técnica,
-   año, imagen y descripción).
+   imagen y descripción).
 
    Para AÑADIR un cuadro: copia un bloque de "obras", pon su imagen
    en assets/obras/ y rellena los datos. El carrusel y el desplegable
@@ -24,215 +24,215 @@ const CONTENIDO = {
      -------------------------------------------------------------- */
   video: { tipo:"youtube", fuente:"G4S4Lh3Zq54" },
 
-  /* Cada obra: id único, título, técnica, año, imagen y descripción.
+  /* Cada obra: id único, título, técnica, imagen y descripción.
      Los títulos marcados (provisional) no figuraban en cartela: cámbialos
      si conoces el real. */
   obras: [
-    { id:"recoleccion", titulo:"«La Primavera»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"recoleccion", titulo:"«La Primavera»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/recoleccion.jpg",
       desc:"Dos mujeres reposan junto a un cesto rebosante de fruta, con el campo y los árboles al fondo. Una de las composiciones de mayor formato de la exposición." },
 
-    { id:"cordobesa", titulo:"«Cordobesa con guitarra y sombrero cordobés»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cordobesa", titulo:"«Cordobesa con guitarra y sombrero cordobés»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cordobesa.jpg",
       desc:"Una mujer con sombrero cordobés se apoya en una guitarra, con la ciudad al fondo. Trazo firme y mirada serena, muy del estilo del autor." },
 
-    { id:"maria", titulo:"«María»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"maria", titulo:"«María»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/maria.jpg",
       desc:"Retrato de mujer sosteniendo un cántaro de barro, con una ventana abierta al paisaje y una figura en el camino." },
 
-    { id:"mujermalaga", titulo:"«Mujer de Málaga»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"mujermalaga", titulo:"«Mujer de Málaga»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/mujermalaga.jpg",
       desc:"Mujer sentada con un abanico en la mano ante un patio y un caserío, bajo un cielo limpio." },
 
-    { id:"naranjas", titulo:"«Mujer con naranjas y limones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"naranjas", titulo:"«Mujer con naranjas y limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/naranjas.jpg",
       desc:"Figura femenina que recoge naranjas en su regazo, junto a una maceta y un naranjo." },
 
-    { id:"pies", titulo:"«La Chiquita Piconera»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"pies", titulo:"«La Chiquita Piconera»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/pies.jpg",
       desc:"Una mujer se refresca los pies en un lebrillo, sentada ante un paisaje abierto." },
 
-    { id:"cantaro", titulo:"«La Fuensanta»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cantaro", titulo:"«La Fuensanta»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cantaro.jpg",
       desc:"Mujer de falda roja apoyada en un gran cántaro de barro, junto a un muro." },
 
-    { id:"melocotones", titulo:"«Bodegón. Melocotones y uvas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"melocotones", titulo:"«Bodegón. Melocotones y uvas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/melocotones.jpg",
       desc:"Cestas de uvas y melocotones sobre fondo oscuro, con hojas y sarmientos de parra. Detalle minucioso en cada fruto." },
 
-    { id:"brevas", titulo:"«Bodegón. Cesta de brevas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"brevas", titulo:"«Bodegón. Cesta de brevas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/brevas.jpg",
       desc:"Cesto de brevas, higos y uvas sobre un mantel rematado con encaje. Calidez y volumen en las frutas maduras." },
 
-    { id:"cestauvas", titulo:"«Bodegón. Cesta con uvas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cestauvas", titulo:"«Bodegón. Cesta con uvas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cestauvas.jpg",
       desc:"Cesta de manzanas y uvas sobre un mantel de encaje, acompañada de un vaso de agua. Estudio de luz y transparencias." },
 
-    { id:"rosas", titulo:"«Jarrón con rosas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"rosas", titulo:"«Jarrón con rosas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/rosas.jpg",
       desc:"Ramo de rosas en un jarrón de cerámica, sobre fondo oscuro y en marco oval dorado. (Título provisional.)" },
 
-    { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/veleros.jpg",
       desc:"Dos galeones navegan a toda vela sobre un mar agitado, bajo un cielo de nubes." },
 
-    { id:"abanico", titulo:"«Abanico de amapolas»", tecnica:"Pintura a mano sobre abanico", anio:"Año por confirmar",
+    { id:"abanico", titulo:"«Abanico de amapolas»", tecnica:"Pintura a mano sobre abanico",
       imagen:"assets/obras/abanico.jpg",
       desc:"Amapolas pintadas a mano sobre un abanico, firmado «Crecencio». Una pieza singular dentro de la exposición." },
 
     /* ---------- Escenas religiosas ---------- */
-    { id:"panespeces", titulo:"«Multiplicación de panes y peces»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"panespeces", titulo:"«Multiplicación de panes y peces»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/panespeces.jpg",
       desc:"Jesús, sentado junto a una hoguera bajo un árbol, asa los peces mientras señala la barca al atardecer sobre el lago. Luz cálida y reflejos dorados en el agua." },
 
-    { id:"anunciacion", titulo:"«La Anunciación»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"anunciacion", titulo:"«La Anunciación»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/anunciacion.jpg",
       desc:"El arcángel Gabriel, sobre una nube, se aparece a la Virgen en oración bajo el haz de luz del Espíritu Santo. (Título provisional.)" },
 
-    { id:"sagradafamilia", titulo:"«La Sagrada Familia»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"sagradafamilia", titulo:"«La Sagrada Familia»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/sagradafamilia.jpg",
       desc:"María, el Niño y San José en el taller de carpintería, con un castillo y las montañas al fondo." },
 
-    { id:"samaritana", titulo:"«La samaritana»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"samaritana", titulo:"«La samaritana»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/samaritana.jpg",
       desc:"Jesús conversa con la mujer de Samaria junto al pozo, entre naranjos y palmeras. (Título provisional.)" },
 
-    { id:"asuncion", titulo:"«Jesús recibe a la Virgen»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"asuncion", titulo:"«Jesús recibe a la Virgen»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/asuncion.jpg",
       desc:"Cristo tiende las manos a la Virgen, que asciende entre nubes rodeada de querubines. (Título provisional.)" },
 
-    { id:"ermita", titulo:"«Ermita la Virgen de Guía»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"ermita", titulo:"«Ermita la Virgen de Guía»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ermita.jpg",
       desc:"La ermita de piedra con su espadaña y su campana, enmarcada entre dos grandes árboles y la cancela de hierro." },
 
     /* ---------- Escenas rurales y paisajes ---------- */
-    { id:"pastores", titulo:"«Los pastores»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"pastores", titulo:"«Los pastores»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/pastores.jpg",
       desc:"Una pastora con su cesto y un pastor recostado junto a su perro vigilan el rebaño en un prado florido, con la sierra al fondo." },
 
-    { id:"pastor", titulo:"«El pastor»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"pastor", titulo:"«El pastor»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/pastor.jpg",
       desc:"Un pequeño pastor cuida su rebaño a orillas de un lago, con un cortijo blanco entre la arboleda." },
 
-    { id:"lavanderas", titulo:"«Lavanderas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"lavanderas", titulo:"«Lavanderas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/lavanderas.jpg",
       desc:"Dos mujeres lavan la ropa en el río a los pies de un pueblo de montaña con su campanario." },
 
-    { id:"segadoras", titulo:"«Segadoras»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"segadoras", titulo:"«Segadoras»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/segadoras.jpg",
       desc:"Mujeres atan haces de trigo y los cargan en un carro tirado por un burro, en plena siega bajo las montañas." },
 
-    { id:"almuerzo", titulo:"«Los segadores»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"almuerzo", titulo:"«Los segadores»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/almuerzo.jpg",
       desc:"Tres segadores hacen un alto para comer en el rastrojo: chorizo, pan, vino y un plato de migas sobre un mantel blanco." },
 
-    { id:"perros", titulo:"«Día de monte»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"perros", titulo:"«Día de monte»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/perros.jpg",
       desc:"Un hombre con chaleco naranja descansa entre las rocas del monte rodeado de sus perros. (Título provisional.)" },
 
-    { id:"caballos", titulo:"«Caballos»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"caballos", titulo:"«Caballos»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caballos.jpg",
       desc:"Un caballo blanco pasta junto a otro castaño en un prado, bajo un cielo otoñal. (Título provisional.)" },
 
-    { id:"caballosplaya", titulo:"«Caballos en la playa»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"caballosplaya", titulo:"«Caballos en la playa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caballosplaya.jpg",
       desc:"Tres caballos galopan por la orilla levantando espuma, bajo un atardecer encendido. (Título provisional.)" },
 
-    { id:"casa", titulo:"«Casa en la sierra»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"casa", titulo:"«Casa en la sierra»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/casa.jpg",
       desc:"Una casa de tejado a dos aguas entre árboles otoñales y montañas azuladas. (Título provisional.)" },
 
     /* ---------- Bodegones ---------- */
-    { id:"manzanasuvas", titulo:"«Bodegón. Manzanas y uvas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"manzanasuvas", titulo:"«Bodegón. Manzanas y uvas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/manzanasuvas.jpg",
       desc:"Cesta de asa con uvas blancas y negras y manzanas, sobre fondo verde y con grandes hojas de parra." },
 
-    { id:"jarracopa", titulo:"«Bodegón. Jarra y copa»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"jarracopa", titulo:"«Bodegón. Jarra y copa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/jarracopa.jpg",
       desc:"Jarra de barro, copa de cristal y un plato con fruta sobre un paño blanco, contra un fondo negro. (Título provisional.)" },
 
-    { id:"lirio", titulo:"«Bodegón. Lirio y botella»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"lirio", titulo:"«Bodegón. Lirio y botella»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/lirio.jpg",
       desc:"Un lirio amarillo en un vaso, una botella verde, peras e higos sobre un mantel blanco. (Título provisional.)" },
 
-    { id:"copacerezas", titulo:"«Bodegón. Copa de cerezas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"copacerezas", titulo:"«Bodegón. Copa de cerezas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/copacerezas.jpg",
       desc:"Una copa colmada de cerezas sobre un mantel de encaje que cae en pliegues, sobre fondo negro." },
 
-    { id:"copachampan", titulo:"«Bodegón. Copa de champán»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"copachampan", titulo:"«Bodegón. Copa de champán»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/copachampan.jpg",
       desc:"Copa de champán sobre un paño de seda, junto a un racimo de uvas blancas y hojas de parra." },
 
-    { id:"jarracobre", titulo:"«Bodegón. Jarra de cobre y copa»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"jarracobre", titulo:"«Bodegón. Jarra de cobre y copa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/jarracobre.jpg",
       desc:"Uvas, melocotones, una jarra de cobre y copas de vino sobre un mantel con puntilla." },
 
-    { id:"limones", titulo:"«Bodegón. Cestillo de limones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"limones", titulo:"«Bodegón. Cestillo de limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/limones.jpg",
       desc:"Limones enteros y uno partido en una bandeja sobre un mantel de encaje, con fondo negro. (Título provisional.)" },
 
-    { id:"caldero", titulo:"«Bodegón. Barreño de cobre»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"caldero", titulo:"«Bodegón. Barreño de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caldero.jpg",
       desc:"Un barreño de cobre, peras y naranjas sobre un mantel blanco, en tonos cálidos y tierras. (Título provisional.)" },
 
-    { id:"racimos", titulo:"«Bodegón. Uvas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"racimos", titulo:"«Bodegón. Uvas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/racimos.jpg",
       desc:"Racimos de uvas blancas y negras con hojas de parra sobre un mantel de encaje, contra un fondo rojo. (Título provisional.)" },
 
-    { id:"sandia", titulo:"«Bodegón. Sandía y jarras»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"sandia", titulo:"«Bodegón. Sandía y jarras»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/sandia.jpg",
       desc:"Jarras de metal y cristal, una copa, tajadas de sandía y melocotones sobre un mantel de encaje. (Título provisional.)" },
 
-    { id:"botellaverde", titulo:"«Bodegón. Botella y limones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"botellaverde", titulo:"«Bodegón. Botella y limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellaverde.jpg",
       desc:"Botella verde, un tarro con limones, una jarra de cristal y racimos de uvas con un paño de encaje. (Título provisional.)" },
 
-    { id:"frutero", titulo:"«Bodegón. Frutero dorado»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"frutero", titulo:"«Bodegón. Frutero dorado»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/frutero.jpg",
       desc:"Un frutero dorado con uvas, manzanas rojas y racimos sobre un largo mantel blanco con encaje. (Título provisional.)" },
 
-    { id:"cantaroverde", titulo:"«Bodegón. Cántaro y caldero»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cantaroverde", titulo:"«Bodegón. Cántaro y caldero»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cantaroverde.jpg",
       desc:"Un cántaro vidriado, un caldero de cobre, ajos, pimientos y tomates: un bodegón de cocina. (Título provisional.)" },
 
-    { id:"ciruelas", titulo:"«Bodegón. Ciruelas y jarra de cobre»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"ciruelas", titulo:"«Bodegón. Ciruelas y jarra de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ciruelas.jpg",
       desc:"Un cuenco de ciruelas, racimos de uvas, un plato de porcelana y una jarra de cobre sobre un paño de encaje. (Título provisional.)" },
 
-    { id:"cestanaranjas", titulo:"«Bodegón. Cesta volcada»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cestanaranjas", titulo:"«Bodegón. Cesta volcada»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cestanaranjas.jpg",
       desc:"Una cesta de mimbre volcada deja caer uvas y naranjas junto a una jarra azul. (Título provisional.)" },
 
-    { id:"botellas", titulo:"«Bodegón. Botellas y plato»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"botellas", titulo:"«Bodegón. Botellas y plato»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellas.jpg",
       desc:"Una licorera de cristal, una botella verde, un plato decorado, higos y uvas sobre un tapete de encaje. (Título provisional.)" },
 
-    { id:"granadas", titulo:"«Bodegón. Copa con granadas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"granadas", titulo:"«Bodegón. Copa con granadas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/granadas.jpg",
       desc:"Granadas en una copa de cristal azul y una abierta sobre el mantel, con fondo azul claro. (Título provisional.)" },
 
-    { id:"uvascortina", titulo:"«Bodegón. Uvas y copa»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"uvascortina", titulo:"«Bodegón. Uvas y copa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/uvascortina.jpg",
       desc:"Una cesta de uvas negras y una copa sobre un mantel de encaje, con una cortina blanca recogida al fondo. (Título provisional.)" },
 
-    { id:"fresas", titulo:"«Bodegón. Copa de fresas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"fresas", titulo:"«Bodegón. Copa de fresas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/fresas.jpg",
       desc:"Una copa de fresas y algunas sueltas sobre un mantel blanco de encaje, en tonos suaves. (Título provisional.)" },
 
     /* ---------- Serie de gatos ---------- */
-    { id:"gatopuerta", titulo:"«Gato tras la puerta»", tecnica:"Pintura sobre lienzo", anio:"Año por confirmar",
+    { id:"gatopuerta", titulo:"«Gato tras la puerta»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatopuerta.jpg",
       desc:"Un gato negro de grandes ojos amarillos se asoma por una puerta entreabierta. (Título provisional.)" },
 
-    { id:"gatocaja", titulo:"«Gato en la caja»", tecnica:"Pintura sobre lienzo", anio:"Año por confirmar",
+    { id:"gatocaja", titulo:"«Gato en la caja»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatocaja.jpg",
       desc:"Un gatito negro asoma de una caja de cartón bajo la luna llena y un cielo de estrellas doradas. (Título provisional.)" },
 
-    { id:"gatotejado", titulo:"«Gato en el tejado»", tecnica:"Pintura sobre lienzo", anio:"Año por confirmar",
+    { id:"gatotejado", titulo:"«Gato en el tejado»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatotejado.jpg",
       desc:"Un gato negro sentado sobre las tejas mira al cielo azul con ojos enormes. (Título provisional.)" },
 
-    { id:"gatoventana", titulo:"«Gato en la ventana»", tecnica:"Pintura sobre lienzo", anio:"Año por confirmar",
+    { id:"gatoventana", titulo:"«Gato en la ventana»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatoventana.jpg",
       desc:"Un gato negro sonriente apoya las patas en el alféizar, entre tonos naranjas y crema. (Título provisional.)" },
   ]
@@ -280,7 +280,6 @@ function seleccionar(i){
 
   $('#obraTecnica').textContent = o.tecnica;
   $('#obraTitulo').textContent  = o.titulo;
-  $('#obraAnio').textContent    = o.anio;
   $('#obraDesc').textContent    = o.desc;
   $('#reseñarObra').disabled    = false;
   $('#crProgreso').textContent  = `Obra ${obraActivaIdx+1} de ${obras.length}`;
