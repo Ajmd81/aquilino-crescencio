@@ -24,9 +24,7 @@ const CONTENIDO = {
      -------------------------------------------------------------- */
   video: { tipo:"youtube", fuente:"G4S4Lh3Zq54" },
 
-  /* Cada obra: id único, título, técnica, imagen y descripción.
-     Los títulos marcados (provisional) no figuraban en cartela: cámbialos
-     si conoces el real. */
+  /* Cada obra: id único, título, técnica, imagen y descripción. */
   obras: [
     { id:"recoleccion", titulo:"«La Primavera»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/recoleccion.jpg",
@@ -70,7 +68,7 @@ const CONTENIDO = {
 
     { id:"rosas", titulo:"«Jarrón con rosas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/rosas.jpg",
-      desc:"Ramo de rosas en un jarrón de cerámica, sobre fondo oscuro y en marco oval dorado. (Título provisional.)" },
+      desc:"Ramo de rosas en un jarrón de cerámica, sobre fondo oscuro y en marco oval dorado." },
 
     { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/veleros.jpg",
@@ -87,7 +85,7 @@ const CONTENIDO = {
 
     { id:"anunciacion", titulo:"«La Anunciación»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/anunciacion.jpg",
-      desc:"El arcángel Gabriel, sobre una nube, se aparece a la Virgen en oración bajo el haz de luz del Espíritu Santo. (Título provisional.)" },
+      desc:"El arcángel Gabriel, sobre una nube, se aparece a la Virgen en oración bajo el haz de luz del Espíritu Santo." },
 
     { id:"sagradafamilia", titulo:"«La Sagrada Familia»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/sagradafamilia.jpg",
@@ -95,11 +93,11 @@ const CONTENIDO = {
 
     { id:"samaritana", titulo:"«La samaritana»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/samaritana.jpg",
-      desc:"Jesús conversa con la mujer de Samaria junto al pozo, entre naranjos y palmeras. (Título provisional.)" },
+      desc:"Jesús conversa con la mujer de Samaria junto al pozo, entre naranjos y palmeras." },
 
     { id:"asuncion", titulo:"«Jesús recibe a la Virgen»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/asuncion.jpg",
-      desc:"Cristo tiende las manos a la Virgen, que asciende entre nubes rodeada de querubines. (Título provisional.)" },
+      desc:"Cristo tiende las manos a la Virgen, que asciende entre nubes rodeada de querubines." },
 
     { id:"ermita", titulo:"«Ermita la Virgen de Guía»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ermita.jpg",
@@ -128,19 +126,19 @@ const CONTENIDO = {
 
     { id:"perros", titulo:"«Día de monte»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/perros.jpg",
-      desc:"Un hombre con chaleco naranja descansa entre las rocas del monte rodeado de sus perros. (Título provisional.)" },
+      desc:"Un hombre con chaleco naranja descansa entre las rocas del monte rodeado de sus perros." },
 
     { id:"caballos", titulo:"«Caballos»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caballos.jpg",
-      desc:"Un caballo blanco pasta junto a otro castaño en un prado, bajo un cielo otoñal. (Título provisional.)" },
+      desc:"Un caballo blanco pasta junto a otro castaño en un prado, bajo un cielo otoñal." },
 
     { id:"caballosplaya", titulo:"«Caballos en la playa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caballosplaya.jpg",
-      desc:"Tres caballos galopan por la orilla levantando espuma, bajo un atardecer encendido. (Título provisional.)" },
+      desc:"Tres caballos galopan por la orilla levantando espuma, bajo un atardecer encendido." },
 
     { id:"casa", titulo:"«Casa en la sierra»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/casa.jpg",
-      desc:"Una casa de tejado a dos aguas entre árboles otoñales y montañas azuladas. (Título provisional.)" },
+      desc:"Una casa de tejado a dos aguas entre árboles otoñales y montañas azuladas." },
 
     /* ---------- Bodegones ---------- */
     { id:"manzanasuvas", titulo:"«Bodegón. Manzanas y uvas»", tecnica:"Óleo sobre lienzo",
@@ -149,11 +147,11 @@ const CONTENIDO = {
 
     { id:"jarracopa", titulo:"«Bodegón. Jarra y copa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/jarracopa.jpg",
-      desc:"Jarra de barro, copa de cristal y un plato con fruta sobre un paño blanco, contra un fondo negro. (Título provisional.)" },
+      desc:"Jarra de barro, copa de cristal y un plato con fruta sobre un paño blanco, contra un fondo negro." },
 
     { id:"lirio", titulo:"«Bodegón. Lirio y botella»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/lirio.jpg",
-      desc:"Un lirio amarillo en un vaso, una botella verde, peras e higos sobre un mantel blanco. (Título provisional.)" },
+      desc:"Un lirio amarillo en un vaso, una botella verde, peras e higos sobre un mantel blanco." },
 
     { id:"copacerezas", titulo:"«Bodegón. Copa de cerezas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/copacerezas.jpg",
@@ -169,72 +167,72 @@ const CONTENIDO = {
 
     { id:"limones", titulo:"«Bodegón. Cestillo de limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/limones.jpg",
-      desc:"Limones enteros y uno partido en una bandeja sobre un mantel de encaje, con fondo negro. (Título provisional.)" },
+      desc:"Limones enteros y uno partido en una bandeja sobre un mantel de encaje, con fondo negro." },
 
     { id:"caldero", titulo:"«Bodegón. Barreño de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caldero.jpg",
-      desc:"Un barreño de cobre, peras y naranjas sobre un mantel blanco, en tonos cálidos y tierras. (Título provisional.)" },
+      desc:"Un barreño de cobre, peras y naranjas sobre un mantel blanco, en tonos cálidos y tierras." },
 
     { id:"racimos", titulo:"«Bodegón. Uvas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/racimos.jpg",
-      desc:"Racimos de uvas blancas y negras con hojas de parra sobre un mantel de encaje, contra un fondo rojo. (Título provisional.)" },
+      desc:"Racimos de uvas blancas y negras con hojas de parra sobre un mantel de encaje, contra un fondo rojo." },
 
     { id:"sandia", titulo:"«Bodegón. Sandía y jarras»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/sandia.jpg",
-      desc:"Jarras de metal y cristal, una copa, tajadas de sandía y melocotones sobre un mantel de encaje. (Título provisional.)" },
+      desc:"Jarras de metal y cristal, una copa, tajadas de sandía y melocotones sobre un mantel de encaje." },
 
     { id:"botellaverde", titulo:"«Bodegón. Botella y limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellaverde.jpg",
-      desc:"Botella verde, un tarro con limones, una jarra de cristal y racimos de uvas con un paño de encaje. (Título provisional.)" },
+      desc:"Botella verde, un tarro con limones, una jarra de cristal y racimos de uvas con un paño de encaje." },
 
     { id:"frutero", titulo:"«Bodegón. Frutero dorado»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/frutero.jpg",
-      desc:"Un frutero dorado con uvas, manzanas rojas y racimos sobre un largo mantel blanco con encaje. (Título provisional.)" },
+      desc:"Un frutero dorado con uvas, manzanas rojas y racimos sobre un largo mantel blanco con encaje." },
 
     { id:"cantaroverde", titulo:"«Bodegón. Cántaro y caldero»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cantaroverde.jpg",
-      desc:"Un cántaro vidriado, un caldero de cobre, ajos, pimientos y tomates: un bodegón de cocina. (Título provisional.)" },
+      desc:"Un cántaro vidriado, un caldero de cobre, ajos, pimientos y tomates: un bodegón de cocina." },
 
     { id:"ciruelas", titulo:"«Bodegón. Ciruelas y jarra de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ciruelas.jpg",
-      desc:"Un cuenco de ciruelas, racimos de uvas, un plato de porcelana y una jarra de cobre sobre un paño de encaje. (Título provisional.)" },
+      desc:"Un cuenco de ciruelas, racimos de uvas, un plato de porcelana y una jarra de cobre sobre un paño de encaje." },
 
     { id:"cestanaranjas", titulo:"«Bodegón. Cesta volcada»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cestanaranjas.jpg",
-      desc:"Una cesta de mimbre volcada deja caer uvas y naranjas junto a una jarra azul. (Título provisional.)" },
+      desc:"Una cesta de mimbre volcada deja caer uvas y naranjas junto a una jarra azul." },
 
     { id:"botellas", titulo:"«Bodegón. Botellas y plato»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellas.jpg",
-      desc:"Una licorera de cristal, una botella verde, un plato decorado, higos y uvas sobre un tapete de encaje. (Título provisional.)" },
+      desc:"Una licorera de cristal, una botella verde, un plato decorado, higos y uvas sobre un tapete de encaje." },
 
     { id:"granadas", titulo:"«Bodegón. Copa con granadas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/granadas.jpg",
-      desc:"Granadas en una copa de cristal azul y una abierta sobre el mantel, con fondo azul claro. (Título provisional.)" },
+      desc:"Granadas en una copa de cristal azul y una abierta sobre el mantel, con fondo azul claro." },
 
     { id:"uvascortina", titulo:"«Bodegón. Uvas y copa»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/uvascortina.jpg",
-      desc:"Una cesta de uvas negras y una copa sobre un mantel de encaje, con una cortina blanca recogida al fondo. (Título provisional.)" },
+      desc:"Una cesta de uvas negras y una copa sobre un mantel de encaje, con una cortina blanca recogida al fondo." },
 
     { id:"fresas", titulo:"«Bodegón. Copa de fresas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/fresas.jpg",
-      desc:"Una copa de fresas y algunas sueltas sobre un mantel blanco de encaje, en tonos suaves. (Título provisional.)" },
+      desc:"Una copa de fresas y algunas sueltas sobre un mantel blanco de encaje, en tonos suaves." },
 
     /* ---------- Serie de gatos ---------- */
     { id:"gatopuerta", titulo:"«Gato tras la puerta»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatopuerta.jpg",
-      desc:"Un gato negro de grandes ojos amarillos se asoma por una puerta entreabierta. (Título provisional.)" },
+      desc:"Un gato negro de grandes ojos amarillos se asoma por una puerta entreabierta." },
 
     { id:"gatocaja", titulo:"«Gato en la caja»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatocaja.jpg",
-      desc:"Un gatito negro asoma de una caja de cartón bajo la luna llena y un cielo de estrellas doradas. (Título provisional.)" },
+      desc:"Un gatito negro asoma de una caja de cartón bajo la luna llena y un cielo de estrellas doradas." },
 
     { id:"gatotejado", titulo:"«Gato en el tejado»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatotejado.jpg",
-      desc:"Un gato negro sentado sobre las tejas mira al cielo azul con ojos enormes. (Título provisional.)" },
+      desc:"Un gato negro sentado sobre las tejas mira al cielo azul con ojos enormes." },
 
     { id:"gatoventana", titulo:"«Gato en la ventana»", tecnica:"Pintura sobre lienzo",
       imagen:"assets/obras/gatoventana.jpg",
-      desc:"Un gato negro sonriente apoya las patas en el alféizar, entre tonos naranjas y crema. (Título provisional.)" },
+      desc:"Un gato negro sonriente apoya las patas en el alféizar, entre tonos naranjas y crema." },
   ]
 };
 
