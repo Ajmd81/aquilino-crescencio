@@ -28,9 +28,9 @@ const CONTENIDO = {
      Los títulos marcados (provisional) no figuraban en cartela: cámbialos
      si conoces el real. */
   obras: [
-    { id:"recoleccion", titulo:"«La recolección»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"recoleccion", titulo:"«La Primavera»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/recoleccion.jpg",
-      desc:"Dos mujeres reposan junto a un cesto rebosante de fruta, con el campo y los árboles al fondo. Una de las composiciones de mayor formato de la exposición. (Título provisional.)" },
+      desc:"Dos mujeres reposan junto a un cesto rebosante de fruta, con el campo y los árboles al fondo. Una de las composiciones de mayor formato de la exposición." },
 
     { id:"cordobesa", titulo:"«Cordobesa con guitarra y sombrero cordobés»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/cordobesa.jpg",
@@ -44,17 +44,17 @@ const CONTENIDO = {
       imagen:"assets/obras/mujermalaga.jpg",
       desc:"Mujer sentada con un abanico en la mano ante un patio y un caserío, bajo un cielo limpio." },
 
-    { id:"naranjas", titulo:"«Mujer con naranjas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"naranjas", titulo:"«Mujer con naranjas y limones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/naranjas.jpg",
-      desc:"Figura femenina que recoge naranjas en su regazo, junto a una maceta y un naranjo. (Título provisional.)" },
+      desc:"Figura femenina que recoge naranjas en su regazo, junto a una maceta y un naranjo." },
 
-    { id:"pies", titulo:"«Mujer lavándose los pies»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"pies", titulo:"«La Chiquita Piconera»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/pies.jpg",
-      desc:"Una mujer se refresca los pies en un lebrillo, sentada ante un paisaje abierto. (Título provisional.)" },
+      desc:"Una mujer se refresca los pies en un lebrillo, sentada ante un paisaje abierto." },
 
-    { id:"cantaro", titulo:"«Mujer con cántaro»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"cantaro", titulo:"«La Fuensanta»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/cantaro.jpg",
-      desc:"Mujer de falda roja apoyada en un gran cántaro de barro, junto a un muro. (Título provisional.)" },
+      desc:"Mujer de falda roja apoyada en un gran cántaro de barro, junto a un muro." },
 
     { id:"melocotones", titulo:"«Bodegón. Melocotones y uvas»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/melocotones.jpg",
@@ -72,9 +72,9 @@ const CONTENIDO = {
       imagen:"assets/obras/rosas.jpg",
       desc:"Ramo de rosas en un jarrón de cerámica, sobre fondo oscuro y en marco oval dorado. (Título provisional.)" },
 
-    { id:"veleros", titulo:"«Veleros»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
+    { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo", anio:"Año por confirmar",
       imagen:"assets/obras/veleros.jpg",
-      desc:"Dos veleros navegan a toda vela sobre un mar agitado, bajo un cielo de nubes. (Título provisional.)" },
+      desc:"Dos galeones navegan a toda vela sobre un mar agitado, bajo un cielo de nubes." },
 
     { id:"abanico", titulo:"«Abanico de amapolas»", tecnica:"Pintura a mano sobre abanico", anio:"Año por confirmar",
       imagen:"assets/obras/abanico.jpg",
