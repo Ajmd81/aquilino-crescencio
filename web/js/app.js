@@ -26,6 +26,14 @@ const CONTENIDO = {
 
   /* Cada obra: id único, título, técnica, imagen y descripción. */
   obras: [
+    { id:"castillo", titulo:"«Castillo de Almodóvar del Río»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/castillo.jpg",
+      desc:"Las torres almenadas del castillo se alzan sobre la arboleda y las palmeras, bajo un cielo azul con nubes." },
+
+    { id:"clara", titulo:"«Clara»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/clara.jpg",
+      desc:"Una niña rubia con pijama lila duerme abrazada a su osito de peluche. Un retrato tierno firmado por el autor." },
+
     { id:"recoleccion", titulo:"«La Primavera»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/recoleccion.jpg",
       desc:"Dos mujeres reposan junto a un cesto rebosante de fruta, con el campo y los árboles al fondo. Una de las composiciones de mayor formato de la exposición." },
