@@ -56,7 +56,7 @@ const CONTENIDO = {
 
     { id:"pies", titulo:"«La Chiquita Piconera»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/pies.jpg",
-      desc:"Una mujer se refresca los pies en un lebrillo, sentada ante un paisaje abierto." },
+      desc:"Una mujer mueve el picón del brasero, sentada ante un paisaje abierto." },
 
     { id:"cantaro", titulo:"«La Fuensanta»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cantaro.jpg",
@@ -77,6 +77,14 @@ const CONTENIDO = {
     { id:"rosas", titulo:"«Jarrón con rosas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/rosas.jpg",
       desc:"Ramo de rosas en un jarrón de cerámica, sobre fondo oscuro y en marco oval dorado." },
+
+    { id:"claveles", titulo:"«Bodegón. Jarra de cobre con claveles»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/claveles.jpg",
+      desc:"Un ramo de claveles, rosas, azucenas y lavanda en una jarra dorada, sobre fondo negro." },
+
+    { id:"jarronrosas", titulo:"«Jarrón de rosas»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/jarronrosas.jpg",
+      desc:"Rosas de varios colores y flores blancas en un jarrón azul, sobre un fondo verde oscuro." },
 
     { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/veleros.jpg",
@@ -103,13 +111,21 @@ const CONTENIDO = {
       imagen:"assets/obras/samaritana.jpg",
       desc:"Jesús conversa con la mujer de Samaria junto al pozo, entre naranjos y palmeras." },
 
-    { id:"asuncion", titulo:"«Jesús recibe a la Virgen»", tecnica:"Óleo sobre lienzo",
+    { id:"asuncion", titulo:"«La Asunción»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/asuncion.jpg",
       desc:"Cristo tiende las manos a la Virgen, que asciende entre nubes rodeada de querubines." },
 
     { id:"ermita", titulo:"«Ermita la Virgen de Guía»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ermita.jpg",
       desc:"La ermita de piedra con su espadaña y su campana, enmarcada entre dos grandes árboles y la cancela de hierro." },
+
+    { id:"olivo", titulo:"«Olivo Centenario»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/olivo.jpg",
+      desc:"Un olivo de tronco retorcido se asoma a una cala de aguas azules con barcas amarradas y casas blancas entre los árboles." },
+
+    { id:"noria", titulo:"«La noria»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/noria.jpg",
+      desc:"La noria de la Albolafia junto al Guadalquivir, con el puente romano y la Calahorra al fondo, en Córdoba." },
 
     /* ---------- Escenas rurales y paisajes ---------- */
     { id:"pastores", titulo:"«Los pastores»", tecnica:"Óleo sobre lienzo",
@@ -132,7 +148,7 @@ const CONTENIDO = {
       imagen:"assets/obras/almuerzo.jpg",
       desc:"Tres segadores hacen un alto para comer en el rastrojo: chorizo, pan, vino y un plato de migas sobre un mantel blanco." },
 
-    { id:"perros", titulo:"«Día de monte»", tecnica:"Óleo sobre lienzo",
+    { id:"perros", titulo:"«Día de Montería»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/perros.jpg",
       desc:"Un hombre con chaleco naranja descansa entre las rocas del monte rodeado de sus perros." },
 
@@ -147,6 +163,26 @@ const CONTENIDO = {
     { id:"casa", titulo:"«Casa en la sierra»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/casa.jpg",
       desc:"Una casa de tejado a dos aguas entre árboles otoñales y montañas azuladas." },
+
+    { id:"patio", titulo:"«Patio cordobés»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/patio.jpg",
+      desc:"Una mujer asomada a una ventana en una pared encalada llena de macetas con geranios." },
+
+    { id:"costa", titulo:"«Casa junto al mar»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/costa.jpg",
+      desc:"Una casa con balcón de madera y buganvillas sobre una cala, con palmeras y el mar al fondo." },
+
+    { id:"calle", titulo:"«Calle con buganvilla»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/calle.jpg",
+      desc:"Una calle blanca de pueblo andaluz con escalinata y una buganvilla en flor." },
+
+    { id:"iglesia", titulo:"«Plaza con buganvilla»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/iglesia.jpg",
+      desc:"Una plaza encalada con farol y fuente, una espadaña amarilla al fondo y una gran buganvilla morada." },
+
+    { id:"arboleda", titulo:"«Arroyo entre árboles»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/arboleda.jpg",
+      desc:"Un arroyo cruza una arboleda de chopos con hojas verdes y rojizas." },
 
     /* ---------- Bodegones ---------- */
     { id:"manzanasuvas", titulo:"«Bodegón. Manzanas y uvas»", tecnica:"Óleo sobre lienzo",
@@ -224,6 +260,10 @@ const CONTENIDO = {
     { id:"fresas", titulo:"«Bodegón. Copa de fresas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/fresas.jpg",
       desc:"Una copa de fresas y algunas sueltas sobre un mantel blanco de encaje, en tonos suaves." },
+
+    { id:"limonesvaso", titulo:"«Bodegón. Limones y vaso»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/limonesvaso.jpg",
+      desc:"Limones, un pomelo y un vaso de cristal sobre fondo amarillo, con sus sombras azules." },
 
     /* ---------- Serie de gatos ---------- */
     { id:"gatopuerta", titulo:"«Gato tras la puerta»", tecnica:"Pintura sobre lienzo",
