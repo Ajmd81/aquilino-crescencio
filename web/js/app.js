@@ -111,7 +111,7 @@ const CONTENIDO = {
       imagen:"assets/obras/samaritana.jpg",
       desc:"Jesús conversa con la mujer de Samaria junto al pozo, entre naranjos y palmeras." },
 
-    { id:"asuncion", titulo:"«La Asunción»", tecnica:"Óleo sobre lienzo",
+    { id:"asuncion", titulo:"«La Ascención de la virgen al cielo»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/asuncion.jpg",
       desc:"Cristo tiende las manos a la Virgen, que asciende entre nubes rodeada de querubines." },
 
@@ -152,7 +152,7 @@ const CONTENIDO = {
       imagen:"assets/obras/perros.jpg",
       desc:"Un hombre con chaleco naranja descansa entre las rocas del monte rodeado de sus perros." },
 
-    { id:"caballos", titulo:"«Caballos»", tecnica:"Óleo sobre lienzo",
+    { id:"caballos", titulo:"«Caballos bebiendo agua»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/caballos.jpg",
       desc:"Un caballo blanco pasta junto a otro castaño en un prado, bajo un cielo otoñal." },
 
@@ -176,7 +176,7 @@ const CONTENIDO = {
       imagen:"assets/obras/calle.jpg",
       desc:"Una calle blanca de pueblo andaluz con escalinata y una buganvilla en flor." },
 
-    { id:"iglesia", titulo:"«Plaza con buganvilla»", tecnica:"Óleo sobre lienzo",
+    { id:"iglesia", titulo:"«Cuesta del Bailío»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/iglesia.jpg",
       desc:"Una plaza encalada con farol y fuente, una espadaña amarilla al fondo y una gran buganvilla morada." },
 
@@ -189,11 +189,11 @@ const CONTENIDO = {
       imagen:"assets/obras/manzanasuvas.jpg",
       desc:"Cesta de asa con uvas blancas y negras y manzanas, sobre fondo verde y con grandes hojas de parra." },
 
-    { id:"jarracopa", titulo:"«Bodegón. Jarra y copa»", tecnica:"Óleo sobre lienzo",
+    { id:"jarracopa", titulo:"«Bodegón. Jarrón de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/jarracopa.jpg",
-      desc:"Jarra de barro, copa de cristal y un plato con fruta sobre un paño blanco, contra un fondo negro." },
+      desc:"Jarrón de cobre, copa de cristal y un plato con fruta sobre un paño blanco, contra un fondo negro." },
 
-    { id:"lirio", titulo:"«Bodegón. Lirio y botella»", tecnica:"Óleo sobre lienzo",
+    { id:"lirio", titulo:"«Bodegón. Botella verde»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/lirio.jpg",
       desc:"Un lirio amarillo en un vaso, una botella verde, peras e higos sobre un mantel blanco." },
 
@@ -205,7 +205,7 @@ const CONTENIDO = {
       imagen:"assets/obras/copachampan.jpg",
       desc:"Copa de champán sobre un paño de seda, junto a un racimo de uvas blancas y hojas de parra." },
 
-    { id:"jarracobre", titulo:"«Bodegón. Jarra de cobre y copa»", tecnica:"Óleo sobre lienzo",
+    { id:"jarracobre", titulo:"«Bodegón. Uvas y Jarra de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/jarracobre.jpg",
       desc:"Uvas, melocotones, una jarra de cobre y copas de vino sobre un mantel con puntilla." },
 
@@ -221,9 +221,9 @@ const CONTENIDO = {
       imagen:"assets/obras/racimos.jpg",
       desc:"Racimos de uvas blancas y negras con hojas de parra sobre un mantel de encaje, contra un fondo rojo." },
 
-    { id:"sandia", titulo:"«Bodegón. Sandía y jarras»", tecnica:"Óleo sobre lienzo",
+    { id:"sandia", titulo:"«Bodegón. Jarras de cristal y plata»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/sandia.jpg",
-      desc:"Jarras de metal y cristal, una copa, tajadas de sandía y melocotones sobre un mantel de encaje." },
+      desc:"Jarras de plata y cristal, una copa, tajadas de sandía y melocotones sobre un mantel de encaje." },
 
     { id:"botellaverde", titulo:"«Bodegón. Botella y limones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellaverde.jpg",
@@ -233,21 +233,21 @@ const CONTENIDO = {
       imagen:"assets/obras/frutero.jpg",
       desc:"Un frutero dorado con uvas, manzanas rojas y racimos sobre un largo mantel blanco con encaje." },
 
-    { id:"cantaroverde", titulo:"«Bodegón. Cántaro y caldero»", tecnica:"Óleo sobre lienzo",
+    { id:"cantaroverde", titulo:"«Bodegón. Almidel de cobre y jarra de barro»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cantaroverde.jpg",
-      desc:"Un cántaro vidriado, un caldero de cobre, ajos, pimientos y tomates: un bodegón de cocina." },
+      desc:"Un cántaro de barro, un almidel de cobre, ajos, pimientos y tomates: un bodegón de cocina." },
 
     { id:"ciruelas", titulo:"«Bodegón. Ciruelas y jarra de cobre»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/ciruelas.jpg",
       desc:"Un cuenco de ciruelas, racimos de uvas, un plato de porcelana y una jarra de cobre sobre un paño de encaje." },
 
-    { id:"cestanaranjas", titulo:"«Bodegón. Cesta volcada»", tecnica:"Óleo sobre lienzo",
+    { id:"cestanaranjas", titulo:"«Bodegón. Cesta volcada y jarra azul»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/cestanaranjas.jpg",
       desc:"Una cesta de mimbre volcada deja caer uvas y naranjas junto a una jarra azul." },
 
-    { id:"botellas", titulo:"«Bodegón. Botellas y plato»", tecnica:"Óleo sobre lienzo",
+    { id:"botellas", titulo:"«Bodegón. Botellas y plato de porcelana»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/botellas.jpg",
-      desc:"Una licorera de cristal, una botella verde, un plato decorado, higos y uvas sobre un tapete de encaje." },
+      desc:"Una licorera de cristal, una botella verde, un plato de porcelana decorado, higos y uvas sobre un tapete de encaje." },
 
     { id:"granadas", titulo:"«Bodegón. Copa con granadas»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/granadas.jpg",
