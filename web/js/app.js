@@ -86,6 +86,22 @@ const CONTENIDO = {
       imagen:"assets/obras/jarronrosas.jpg",
       desc:"Rosas de varios colores y flores blancas en un jarrón azul, sobre un fondo verde oscuro." },
 
+    { id:"orquidea", titulo:"«Orquídea»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/orquidea.jpg",
+      desc:"Una orquídea malva de pétalos alargados se abre entre grandes hojas verdes, con sus capullos al fondo." },
+
+    { id:"agapanto", titulo:"«Agapanto»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/agapanto.jpg",
+      desc:"Flores blancas y azuladas de agapanto con sus capullos, sobre un fondo de hojas verdes." },
+
+    { id:"pensamiento", titulo:"«Pensamientos»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/pensamiento.jpg",
+      desc:"Pensamientos azules con pétalos amarillos vistos muy de cerca, con todo el detalle de sus vetas." },
+
+    { id:"zinnias", titulo:"«Zinnias»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/zinnias.jpg",
+      desc:"Tres zinnias, una naranja, una rosa y una amarilla, entre hojas verdes que giran a su alrededor." },
+
     { id:"veleros", titulo:"«Galeones»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/veleros.jpg",
       desc:"Dos galeones navegan a toda vela sobre un mar agitado, bajo un cielo de nubes." },
@@ -122,6 +138,10 @@ const CONTENIDO = {
     { id:"olivo", titulo:"«Olivo Centenario»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/olivo.jpg",
       desc:"Un olivo de tronco retorcido se asoma a una cala de aguas azules con barcas amarradas y casas blancas entre los árboles." },
+
+    { id:"ojobuey", titulo:"«Ojo de buey»", tecnica:"Óleo sobre lienzo",
+      imagen:"assets/obras/ojobuey.jpg",
+      desc:"El mar al atardecer visto a través del ojo de buey de un barco, con el cielo encendido en el horizonte." },
 
     { id:"noria", titulo:"«La noria»", tecnica:"Óleo sobre lienzo",
       imagen:"assets/obras/noria.jpg",
